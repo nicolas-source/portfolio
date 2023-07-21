@@ -1,6 +1,5 @@
 // https://github.com/gregrickaby/nextjs-github-pages
 
-
 /**
  * @type {import('next').NextConfig}
  **/
