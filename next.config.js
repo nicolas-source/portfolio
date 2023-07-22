@@ -4,20 +4,31 @@
  * @type {import('next').NextConfig}
  **/
 
-const repo = "portfolio";
-const assetPrefix = `/${repo}/`;
-const basePath = `/${repo}`;
+// const repo = "portfolio";
+// const assetPrefix = `/${repo}/`;
+// const basePath = `/${repo}`;
+//
+// const nextConfig = {
+//     trailingSlash: true,
+//
+//     output: "export",
+//     basePath: basePath,
+//     assetPrefix: assetPrefix,
+//     images: {
+//         unoptimized: true,
+//     },
+// };
 
-const nextConfig = {
-    trailingSlash: true,
+// next.config.js
+const isProd = process.env.NODE_ENV === 'production'
 
-    output: "export",
-    basePath: basePath,
-    assetPrefix: assetPrefix,
+module.exports = {
+    assetPrefix: isProd ? '/portfolio/' : '',
     images: {
         unoptimized: true,
     },
-};
+}
+
 
 /**
  * @type {import('next').NextConfig}
