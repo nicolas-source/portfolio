@@ -26,6 +26,7 @@ module.exports = {
     output: 'export',
     // assetPrefix: isProd ? '/portfolio/' : '',
     assetPrefix: '/portfolio/',
+    basePath: "/portfolio",
     // assetPrefix: '',
     // assetPrefix: './',
     images: {
