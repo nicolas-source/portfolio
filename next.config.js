@@ -41,4 +41,4 @@ module.exports = {
 //     // distDir: 'dist',
 // }
 
-module.exports = nextConfig
+// module.exports = nextConfig
