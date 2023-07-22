@@ -20,7 +20,9 @@ export default function Banner() {
               {/*  <span className="hidden sm:inline">View Resume</span>*/}
               {/*</a>{' '}*/}
               {/*<span className="italic px-1.5">or</span>{' '}*/}
-              <a className="font-medium hover:underline text-emerald-400" href="" target="_blank" rel="noreferrer">
+              <a className="font-medium hover:underline text-emerald-400"
+                 href="https://drive.google.com/file/d/1zcwNH_B5epLDPWtxs0TQl_FORp3tG6ph/view"
+                 target="_blank" rel="noreferrer">
                 View Resume
               </a>
             </div>

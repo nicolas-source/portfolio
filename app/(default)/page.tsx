@@ -1,3 +1,5 @@
+import Banner from "@/components/banner";
+
 export const metadata = {
     title: 'Nicolas',
     description: 'Nicolas Portfolio',
@@ -16,6 +18,7 @@ export default function Home() {
             <Projects/>
             <EducationList/>
             <ExperienceList/>
+            {/*<Banner/>*/}
         </>
     )
 }
